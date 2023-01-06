@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66bf0d67.css",
+    "main.js": "/static/js/main.dc79ced2.js",
+    "static/js/787.2a5ae7f8.chunk.js": "/static/js/787.2a5ae7f8.chunk.js",
+    "static/media/Group 240.png": "/static/media/Group 240.e16bd834f89cb20fef00.png",
+    "static/media/Article.png": "/static/media/Article.d792bcd669418eb990b2.png",
+    "static/media/mars-sector-6-7d4LREDSPyQ-unsplash.png": "/static/media/mars-sector-6-7d4LREDSPyQ-unsplash.94a06dc6e312dfdf72cb.png",
+    "static/media/block.png": "/static/media/block.41650ba156e92b7ac5f7.png",
+    "static/media/Group 467.png": "/static/media/Group 467.9ca381199c621dce3a30.png",
+    "static/media/andrew-neel-cckf4TsHAuw-unsplash.png": "/static/media/andrew-neel-cckf4TsHAuw-unsplash.8b4d6891810a192d82b4.png",
+    "index.html": "/index.html",
+    "main.66bf0d67.css.map": "/static/css/main.66bf0d67.css.map",
+    "main.dc79ced2.js.map": "/static/js/main.dc79ced2.js.map",
+    "787.2a5ae7f8.chunk.js.map": "/static/js/787.2a5ae7f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66bf0d67.css",
+    "static/js/main.dc79ced2.js"
+  ]
+}

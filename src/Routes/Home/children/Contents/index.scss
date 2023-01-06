@@ -1,0 +1,181 @@
+.home-content {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+
+    .topsection {
+        img {
+            margin: 0 0 4rem 0;
+            width: 1000px;
+
+            @media screen and (max-width: 400px) {
+                width: 320px;
+            }
+        }
+
+        .description {
+            margin: 2rem 0 0 2rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+
+            @media screen and (max-width: 400px) {
+                margin: 2rem 0 0 0;
+            }
+
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 38px;
+                color: rgb(148, 13, 27);
+
+                @media screen and (max-width: 400px) {
+                    font-size: 25px;
+                }
+            }
+
+            p {
+                width: 100%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+
+                @media screen and (max-width: 400px) {
+                    font-size: 15px;
+                    width: 100%;
+                }
+
+                margin-bottom: 3rem;
+            }
+        }
+
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .satisfiedsection {
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 3rem;
+
+        @media screen and (max-width: 400px) {
+            flex-direction: column;
+        }
+
+        .description {
+            width: 50%;
+
+            @media screen and (max-width: 400px) {
+                width: 100%;
+            }
+        }
+
+        img {
+            margin: 0 0 0 2rem;
+
+            @media screen and (max-width: 400px) {
+                width: 320px;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin-bottom: 3rem;
+
+            @media screen and (max-width: 400px) {
+                font-size: 18px;
+                margin-left: 1rem;
+                margin-top: 3rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .ant-list-item {
+            margin-bottom: 2rem;
+
+            .ant-list-item-meta-content {
+                margin-left: 1rem;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+
+                @media screen and (max-width: 400px) {
+                    ont-size: 14px;
+                }
+            }
+        }
+
+        .ant-list-items {
+            margin: 0;
+            padding: 1rem;
+        }
+
+        .ant-list-item-meta {
+            display: flex;
+        }
+    }
+}
+
+.visionsection {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    @media screen and (max-width: 400px) {
+        flex-direction: column;
+        img{
+            width: 300px;
+        }
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        li{
+            margin-bottom: 2rem;
+        }
+    }
+    .imagecontent {
+        position: relative;
+        display: inline-block;
+
+        .textcontent {
+            h2{
+                font-size: 25px;
+                @media screen and (max-width: 400px) {
+                   font-size: 16px;
+                }
+            }
+            @media screen and (max-width: 400px) {
+                top: 0;
+                font-size: 11px;
+            }
+            font-size: 16px;
+            position: absolute;
+            z-index: 999;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 20%;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            width: 60%;
+        }
+    }
+}
+
+.textdecoradion {
+    top: 10% !important;
+};
+
+.bottomImage{
+    margin: 4rem 0 4rem 0;
+    @media screen and (max-width: 400px) {
+        width: 340px;
+        margin: 2.5rem 0 2.5rem 0;
+    }
+}

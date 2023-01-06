@@ -1,0 +1,41 @@
+.navbar-brand{
+    color:rgb(148, 13, 27) !important ;
+    font-size: 40px !important;
+    margin-right: 500px;
+    margin-left: 124px;
+    @media screen and (max-width: 400px) {
+       margin: 0;
+    }
+}
+
+.navbar-light{
+    background-color: white !important;
+}
+
+.navbar-collapse{
+    margin-right: 120px;
+}
+
+.nav-item{
+    font-size: 18px !important;
+    cursor: pointer;
+    margin-right: 30px;
+    &:hover{
+        color: rgb(148, 13, 27) !important;
+    }
+}
+
+.shopping-search{
+    svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    margin-right: 25px;
+}
+
+.shopping-cart{
+    svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

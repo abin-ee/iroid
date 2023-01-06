@@ -1,0 +1,4 @@
+export const DATA = ["Listen to them. We give opportunities for them to express their views- personal and official.","Appreciate the employees for the effort put in verbally and also through incentives, awards, accolades and public acknowledgements in meetings."
+,"Organise training programmes to enhance their professional skills, and also for personal re engineering to build strong self- esteem, develop interpersonal, social, team communication skills and attitude.",
+"The work environment is made proactive, positive, calm, joyful, effective, productive and enjoyable through meditation and other Self Building activities.",
+"Timely Financial assistance is rendered as a part of employee welfare scheme as and when required."]

@@ -1,0 +1,11 @@
+.left-section {
+    margin-left: 140px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+    @media screen and (max-width: 400px) {
+        margin-left: 30px;
+        font-size: 15px;
+    }
+}

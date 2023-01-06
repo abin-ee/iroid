@@ -1,0 +1,70 @@
+.news-letter-section {
+    margin-left: 250px;
+
+    @media screen and (max-width: 400px) {
+        margin: 0 0 10% 20%;
+    }
+
+    h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+        color: white;
+        padding-bottom: 25px;
+    }
+
+    p {
+        cursor: pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 70;
+        color: white;
+        font-size: 15px;
+
+        &:hover {
+            color: rgb(148, 13, 27);
+        }
+    }
+
+    .input-box {
+        min-height: 50px;
+
+        .ant-input {
+            min-height: 40px;
+            min-width: 250px;
+        }
+
+        .ant-input-search-button {
+            min-height: 46px;
+            background-color: #6B6B6B;
+            border: none;
+            min-width: 100px;
+            color: #FFFFFF;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+        }
+    }
+}
+
+.nocursor {
+    cursor: initial !important;
+
+    &:hover {
+        color: white !important;
+    }
+}
+
+.sociallinksection {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    a {
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    svg {
+        width: 15px;
+        height: 15px;
+    }
+}
